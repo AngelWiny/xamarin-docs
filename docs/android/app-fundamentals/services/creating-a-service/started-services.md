@@ -61,7 +61,7 @@ A started service will keep running indefinitely; Android will keep the service 
 - **[Android.Content.Context.StopService()](xref:Android.Content.Context.StopService*)** &ndash; A client (such as an Activity) can request a service stop by calling the `StopService` method:
 
     ```csharp
-    StopService(new Intent(this, typeof(DemoService));
+    StopService(new Intent(this, typeof(DemoService)));
     ```
 
 - **[Android.App.Service.StopSelf()](xref:Android.App.Service.StopSelf*)** &ndash; A service may shut itself down by invoking the `StopSelf`:
